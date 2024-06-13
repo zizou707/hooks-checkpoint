@@ -6,10 +6,10 @@ const MovieList = ({ movies }) => {
       {movies.map(movie => (
         <div className="blog-preview" key={movie.id} >
           <Link to={`/movies/${movie.id}`}>
-            <img  src={movie.image} ></img>
+            <img alt={movie.subtitle} src={movie.image} ></img>
             <h2>{ movie.title }</h2>
             <h3> {movie.subtitle}</h3>
-            <p>Description : { movie.description }</p>
+            <p >Description : { movie.description }</p>
             <p>Year : {movie.year}</p>
             <p>Rating : {movie.rating}</p>
           </Link>

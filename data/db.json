@@ -55,19 +55,19 @@
       "rating": "4.2"
     },
     {
-      "id": "0295",
+      "id": "700",
       "title": "The Lord Of The Rings",
-      "subTitle": "The Two Towers",
+      "subtitle": "The Two Towers",
       "description": "The Two Towers is a 2002 epic high fantasy adventure film directed by Peter Jackson from a screenplay by Fran Walsh, Philippa Boyens, Stephen Sinclair, and Jackson, based on 1954's The Two Towers, the second volume of the novel The Lord of the Rings by J. R.",
       "image": "../public/images/the two towers.jpg",
       "year": "2002",
       "rating": "4.9"
     },
     {
-      "id": "3efb",
+      "id": "800",
       "title": "The Lord Of The Rings",
-      "subTitle": "The Return of the King",
-      "description": " epic high fantasy adventure film directed by Peter Jackson from a screenplay by Fran Walsh, Philippa Boyens, and Jackson. It is based on 1955's The Return of the King, the third volume of the novel",
+      "subtitle": "The Return of the King",
+      "description": "epic high fantasy adventure film directed by Peter Jackson from a screenplay by Fran Walsh, Philippa Boyens, and Jackson. It is based on 1955's The Return of the King, the third volume of the novel",
       "image": "../public/images/the return of the king.jpg",
       "year": "2003",
       "rating": "5"

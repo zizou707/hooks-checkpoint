@@ -5,15 +5,18 @@ import Create from './Create';
 import NotFound from './NotFound';
 import MovieCard from './MovieCard';
 import Filter from './Filter';
+import { EditMovie } from './EditMovie';
+
 
 function App() {
+ 
   return (
     <Router>
       <div className="App">
         <Navbar />
         <div className="content">
           <Switch>
-            <Route exact path="/">
+           <Route exact path="/">
               <Home />
             </Route>
             <Route path="/create">
@@ -21,6 +24,9 @@ function App() {
             </Route>
             <Route path="/movies/:id">
               <MovieCard />
+            </Route>
+            <Route path="/movies/:id">
+              <EditMovie />
             </Route>
             <Route exact path='/movies'>
               <Filter />
@@ -32,6 +38,7 @@ function App() {
         </div>
       </div>
     </Router>
+    
   );
 }
 

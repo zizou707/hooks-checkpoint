@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, {  useState } from 'react'
 
 import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 
@@ -17,7 +17,7 @@ function Filter() {
       .then(  data=>  {
         if (title !==""){
           setResult(data.filter(d=>d.title === title))}
-          else if (rating > 0) { 
+          else if (rating > 0) { console.log(data);
              setResult(data.filter(d=>d.rating === rating))
             } 
       }
@@ -36,7 +36,7 @@ function Filter() {
         <button onClick={()=>handleClick()} style={{position:"absolute",right:"450px",top:"200px"}}>Search</button>
         <div>
           {(result) && result.map(movie=>{return(<Link key={movie.id} to={`/movies/${movie.id}`}>
-            <img  src={movie.image} ></img>
+            <img alt={movie.subtitle} src={movie.image} ></img>
             <h2>{ movie.title }</h2>
             <h4> {movie.subtitle}</h4>
             <p>Description : { movie.description }</p>

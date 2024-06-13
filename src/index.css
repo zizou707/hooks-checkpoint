@@ -38,6 +38,11 @@
 .blog-details{
   text-align: center;
   width: 300px;
+  padding: 8px 8px;
+}
+.blog-details:hover{
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.7);
+  border-radius: 8px;
 }
 .blog-preview {
   padding: 10px 16px;
@@ -47,7 +52,7 @@
   width: 350px;
 }
 .blog-preview:hover {
-  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.7);
 }
 .blog-preview h2 {
   font-size: 20px;
@@ -68,12 +73,27 @@
   margin: 20px 0;
 }
 .blog-details button {
-  background: #f1356d;
+  background: #f14478;
   color: #fff;
   border: 0;
   padding: 8px;
   border-radius: 8px;
   cursor: pointer;
+}
+.blog-details .edit-movie{
+  background: rgb(91, 122, 207);
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  text-decoration: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.blog-details .edit-movie:hover{
+  background: rgb(58, 98, 206);
+}
+.blog-details button:hover{
+  background: rgb(221, 11, 74);
 }
 
 /* create new blog form */
@@ -83,21 +103,23 @@
   text-align: center;
 }
 .create label {
-  text-align: left;
+  text-align: center;
   display: block;
 }
 .create h2 {
   font-size: 20px;
   color: #f1356d;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  padding-top: 5px;
 }
 .create input, .create textarea, .create select {
-  width: 100%;
+  width: 90%;
   padding: 6px 10px;
   margin: 10px 0;
   border: 1px solid #ddd;
   box-sizing: border-box;
   display: block;
+  margin-left: 15px;
 }
 .create button {
   background: #f1356d;
@@ -106,6 +128,7 @@
   padding: 8px;
   border-radius: 8px;
   cursor: pointer;
+  margin-bottom: 5px;
 }
 .blog-list{
   display: grid;
@@ -114,10 +137,39 @@
   left: 20px;
   gap: 20px;
 }
+@media screen and (max-width:521px) {
+   .blog-list{
+     display: flex;
+     flex-direction: column;
+   }
+}
+@media screen and (max-width:889px) and (min-width:522px){
+   .blog-list{
+     display:grid;
+     grid-template-columns: repeat(2,1fr);
+   }
+}
 /*search page*/
 .search-movie{
     text-align: center;
 }
 img{
   width: 200px;
+}
+.create{
+  color: 'white'; 
+  background-color: '#f1356d';
+  border-radius: '8px';
+}
+.create:hover{
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.7);
+  border-radius: 8px;
+}
+.home:hover{
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.7);
+  border-radius: 8px;
+}
+.search:hover{
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.7);
+  border-radius: 8px;
 }
