@@ -11,6 +11,9 @@ export const EditMovie = () => {
     const [rating,setRating]=useState();
     const [description,setDescription]=useState();
     const history=useHistory();
+    
+
+   
 
   function handleEdit(e) {
 
@@ -37,33 +40,33 @@ export const EditMovie = () => {
       });
   } 
 
-  return (
-    <div>
+  return (   
+     <div>
         <form onSubmit={handleEdit}>
-        <label>Movie title:</label>
+        <label>Movie title:</label><br/>
         <input 
           type="text" 
           required 
           value={title}
           onChange={(e) => setTitle(e.target.value)}
-        />
-        <label>Movie SubTitle :</label>
+        /><br/>
+        <label>Movie SubTitle :</label><br/>
         <input
           required
           value={subTitle}
           onChange={(e) => setSubTitle(e.target.value)}
-        ></input>
-        <label>Movie year:</label>
+        ></input><br/>
+        <label>Movie year:</label><br/>
         <input
           value={year}
           onChange={(e) => setYear(e.target.value)}
-        ></input>
-        <label>Movie Rating:</label>
-        <input type="number"  value={rating}  onChange={e=>setRating(e.target.value)}></input>
-        <label>Movie Description:</label>
-        <textarea placeholder="about the film" rows="2" value={description}  onChange={e=>setDescription(e.target.value)}></textarea>
+        ></input><br/>
+        <label>Movie Rating:</label><br/>
+        <input type="number"  value={rating}  onChange={e=>setRating(e.target.value)}></input><br/>
+        <label>Movie Description:</label><br/>
+        <textarea style={{marginRight:"15px",width:"220px"}} placeholder="about the film" rows="2" value={description}  onChange={e=>setDescription(e.target.value)}></textarea>
         <button >Edit Movie</button>
        </form>
-    </div>
+    </div> 
   )
 }

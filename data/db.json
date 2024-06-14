@@ -6,8 +6,9 @@
       "subtitle": "Fellowship Of The Ring",
       "description": "The Fellowship of the Ring is a 2001 epic fantasy adventure film directed by Peter Jackson from a screenplay by Fran Walsh, Philippa Boyens, and Jackson, based on 1954's",
       "year": 2001,
-      "image": "../public/images/fellowship-of-the-ring.jpg",
-      "rating": "4.9"
+      "image": "fellowship-of-the-ring.jpg",
+      "rating": "4.9",
+      "trailerLink":"https://www.youtube.com/embed/V75dMMIW2B4?si=TVrmX0moGGdOeGK9" 
     },
     {
       "id": "200",
@@ -15,8 +16,9 @@
       "subtitle": "Final Fantasy XV",
       "description": "King Regis, who oversees the land of Lucis, commands his army of soldiers to protect the kingdom from the Niflheim empire's plans to steal the sacred crystal.",
       "year": 2016,
-      "image": "../public/images/Kingsglaive_Final_Fantasy_XV.jpg",
-      "rating": "4.5"
+      "image": "Kingsglaive_Final_Fantasy_XV.jpg",
+      "rating": "4.5",
+      "trailerLink":"https://www.youtube.com/embed/IiI7SMQA59Q?si=G6mSBtSDIdvkL-ue"
     },
     {
       "id": "300",
@@ -24,8 +26,9 @@
       "subtitle": "Spirits Within",
       "description": "A scientist makes a last stand on Earth with the help of a ragtag team of soldiers against an invasion of alien phantoms.",
       "year": 2001,
-      "image": "../public/images/Final_Fantasy_Spirits_Within.jpg",
-      "rating": "4.5"
+      "image": "Final_Fantasy_Spirits_Within.jpg",
+      "rating": "4.5",
+      "trailerLink":"https://www.youtube.com/embed/qUXVOfdGE4o?si=YGfrJ1XNJynfsx1R" 
     },
     {
       "id": "400",
@@ -33,8 +36,9 @@
       "subtitle": "Ghost In The Shell",
       "description": "A hacker known as the Puppet Master is hunted by a female cyborg cop and her partner. This film is a revised version of Ghost in the Shell (1995).",
       "year": 2008,
-      "image": "../public/images/Ghost_In_The_Shell.jpg",
-      "rating": "5"
+      "image": "Ghost_In_The_Shell.jpg",
+      "rating": "5",
+      "trailerLink":"https://www.youtube.com/embed/tRkb1X9ovI4?si=WEFuFZaFSWsPBcbr" 
     },
     {
       "id": "500",
@@ -42,8 +46,9 @@
       "subtitle": "Appleseed Alpha",
       "description": "A young female soldier Deunan and her cyborg partner Briareos survive through the post World War 3 apocalyptic New York in search of human's future hope, the legendary city of Olympus.",
       "year": 2014,
-      "image": "../public/images/Appleseed_Alpha.jpg",
-      "rating": "3.8"
+      "image": "Appleseed_Alpha.jpg",
+      "rating": "3.8",
+      "trailerLink":"https://www.youtube.com/embed/4DtWCjogd1M?si=zKIAnlBENybRdawe"
     },
     {
       "id": "600",
@@ -51,26 +56,29 @@
       "subtitle": "Vendetta",
       "description": "Chris Redfield enlists the help of Leon S. Kennedy and Rebecca Chambers to stop a death merchant, with a vengeance, from spreading a deadly virus in New York.",
       "year": 2014,
-      "image": "../public/images/Resident Evil.jpg",
-      "rating": "4.2"
+      "image": "Resident Evil.jpg",
+      "rating": "4.2",
+      "trailerLink":"https://www.youtube.com/embed/Fs5g-l0Bcss?si=ViWDiPCz_YI6dHBZ"
     },
     {
       "id": "700",
       "title": "The Lord Of The Rings",
       "subtitle": "The Two Towers",
       "description": "The Two Towers is a 2002 epic high fantasy adventure film directed by Peter Jackson from a screenplay by Fran Walsh, Philippa Boyens, Stephen Sinclair, and Jackson, based on 1954's The Two Towers, the second volume of the novel The Lord of the Rings by J. R.",
-      "image": "../public/images/the two towers.jpg",
+      "image": "the two towers.jpg",
       "year": "2002",
-      "rating": "4.9"
+      "rating": "4.9",
+      "trailerLink":"https://www.youtube.com/embed/QrGfYWiSAwA?si=wi3eIl-nRfCnlsdD"
     },
     {
       "id": "800",
       "title": "The Lord Of The Rings",
       "subtitle": "The Return of the King",
       "description": "epic high fantasy adventure film directed by Peter Jackson from a screenplay by Fran Walsh, Philippa Boyens, and Jackson. It is based on 1955's The Return of the King, the third volume of the novel",
-      "image": "../public/images/the return of the king.jpg",
+      "image": "the return of the king.jpg",
       "year": "2003",
-      "rating": "5"
+      "rating": "5",
+      "trailerLink":"https://www.youtube.com/embed/r5X-hFf6Bwo?si=NfPp5xj_sjIPfHfv" 
     }
   ]
 }
